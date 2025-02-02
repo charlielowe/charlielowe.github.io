@@ -1,0 +1,26 @@
+html body {
+    background-color: #131313;
+    padding-top: 200px;
+}
+
+@media screen and (max-width: 505px) {
+    html body {
+        padding-top: 240px;
+    }
+}
+
+.colourOrange {
+    color: #F9A03F;
+}
+
+.colourBlue {
+    color: #55D6BE;
+}
+
+.colourBlack {
+    background-color: #131313;
+}
+
+a {
+    position: static
+}
