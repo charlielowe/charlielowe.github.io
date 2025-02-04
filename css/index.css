@@ -1,24 +1,24 @@
 html body {
-    background-color: #131313;
-    padding-top: 200px;
+    background-color: var(--black-colour);
+
 }
 
-@media screen and (max-width: 505px) {
-    html body {
-        padding-top: 240px;
-    }
+:root {
+    --blue-colour: #55D6BE;
+    --black-colour: #131313;
+    --orange-colour: #F9A03F;
 }
 
 .colourOrange {
-    color: #F9A03F;
+    color: var(--orange-colour);
 }
 
 .colourBlue {
-    color: #55D6BE;
+    color: var(--blue-colour);
 }
 
 .colourBlack {
-    background-color: #131313;
+    background-color: var(--black-colour);
 }
 
 a {
