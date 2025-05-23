@@ -1,0 +1,25 @@
+html body {
+    background-color: var(--black-colour);
+}
+
+:root {
+    --blue-colour: #55D6BE;
+    --black-colour: #131313;
+    --orange-colour: #F9A03F;
+}
+
+.colourOrange {
+    color: var(--orange-colour);
+}
+
+.colourBlue {
+    color: var(--blue-colour);
+}
+
+.colourBlack {
+    background-color: var(--black-colour);
+}
+
+a {
+    position: static
+}
